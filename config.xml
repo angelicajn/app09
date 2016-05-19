@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Config.xml reference:https://build.phonegap.com/docs/configs-xml-->
+ <widget xmlns   ="http://www.w3.org/ns/widgets"
+    xmlns:gap   ="http://phonegap.com/ns/1.0"
+	id          ="com.phonegap.example9"
+	versionCode ="10"
+	version     ="1.0.0">
+	
+	<!--versionCode is optional and Android only-->  
+	<name>Geolocalizacion</name>
+	
+	<description>
+	App para ejemplificar la geolocalizacion
+	</description>
+	
+	<!--Personaliza la aplicacion y plataforma-->
+	<preference name="phonegap-version" value="3.7.0"/>
+	
+	<preference name="target-device"   value="universal"/>
+	<preference name="fullscreen"    value="true"/>
+	<preference name="android-installLocation" value="auto"/>
+	<!--
+	<author href="https://build.phonegap.com" email="support@phonegap.com">
+	    Jimenez Nieto Angelica
+	</author>
+	-->
+	<!--Plugins-->
+	<!--core plugins-->
+<gap:plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb"/>
+
+
+    <!--Colocar icono app-->
+	
+<icon src="res/android/mdpi.png"/>
+</widget>					
